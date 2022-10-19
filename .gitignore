@@ -1,0 +1,12 @@
+### JetBrains IDE ###
+.idea/
+**/.idea/
+
+### Maven ###
+target/
+**/target/
+.mvn/
+**/.mvn/
+
+### Others ###
+*.log
