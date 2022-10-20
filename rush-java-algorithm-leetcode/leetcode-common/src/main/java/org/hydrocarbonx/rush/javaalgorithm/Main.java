@@ -1,4 +1,4 @@
-package org.hydrocarbonx.rush;
+package org.hydrocarbonx.rush.javaalgorithm;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -8,6 +8,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Main {
   public static void main(String[] args) {
-    log.info("Hello from leetcode module!");
+    log.info("Hello from leetcode common!");
   }
 }

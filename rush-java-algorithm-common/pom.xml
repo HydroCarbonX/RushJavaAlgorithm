@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
+        <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
         <artifactId>rush-java-algorithm</artifactId>
-        <groupId>org.hydrocarbonx.rush</groupId>
-        <version>0.0.1</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>rush-java-algorithm-common</artifactId>
-    <version>${parent.version}</version>
-
+    <version>${revision}</version>
+    <packaging>jar</packaging>
 </project>

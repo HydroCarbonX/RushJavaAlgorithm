@@ -5,18 +5,32 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
+        <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
         <artifactId>rush-java-algorithm</artifactId>
-        <groupId>org.hydrocarbonx.rush</groupId>
-        <version>0.0.1</version>
+        <version>${revision}</version>
     </parent>
 
-    <artifactId>rush-java-algorithm-leetcode</artifactId>
-    <version>${parent.version}</version>
+    <modules>
+        <module>leetcode-common</module>
+        <module>leetcode-medium</module>
+    </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.hydrocarbonx.rush</groupId>
-            <artifactId>rush-java-algorithm-common</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>rush-java-algorithm-leetcode</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
+                <artifactId>leetcode-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
+                <artifactId>leetcode-medium</artifactId>
+                <version>${revision}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
