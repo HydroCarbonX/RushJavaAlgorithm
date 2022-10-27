@@ -12,6 +12,7 @@
 
     <modules>
         <module>leetcode-common</module>
+        <module>leetcode-easy</module>
         <module>leetcode-medium</module>
     </modules>
 
@@ -24,6 +25,11 @@
             <dependency>
                 <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
                 <artifactId>leetcode-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
+                <artifactId>leetcode-easy</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
