@@ -10,3 +10,5 @@ target/
 
 ### Others ###
 *.log
+.flattened-pom.xml
+**/.flattened-pom.xml
