@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
  * @author zhenfeng.zou
  */
 @SuppressWarnings({"java:S3577", "NewClassNamingConvention"})
-class _1922MaximumRepeatingSubstringTest {
+class _1922CountGoodNumbersTest {
 
-  private final _1922MaximumRepeatingSubstring solution = new _1922MaximumRepeatingSubstring();
+  private final _1922CountGoodNumbers solution = new _1922CountGoodNumbers();
 
   @Test
   void arraySign() {

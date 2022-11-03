@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 @SuppressWarnings("java:S101")
-public class _1922MaximumRepeatingSubstring {
+public class _1922CountGoodNumbers {
   public int arraySign(int[] nums) {
     // 初始化的结果为 1
     int result = 1;
