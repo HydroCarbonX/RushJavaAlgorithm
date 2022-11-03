@@ -1,11 +1,8 @@
 package org.hydrocarbonx.rush.javaalgorithm;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * @author zhenfeng.zou
  */
-@Slf4j
 @SuppressWarnings("java:S101")
 public class _1922CountGoodNumbers {
   public int arraySign(int[] nums) {
