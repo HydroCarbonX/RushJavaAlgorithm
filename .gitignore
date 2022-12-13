@@ -1,6 +1,8 @@
 ### JetBrains IDE ###
 .idea/
+*.iml
 **/.idea/
+**/*.iml
 
 ### Maven ###
 target/
