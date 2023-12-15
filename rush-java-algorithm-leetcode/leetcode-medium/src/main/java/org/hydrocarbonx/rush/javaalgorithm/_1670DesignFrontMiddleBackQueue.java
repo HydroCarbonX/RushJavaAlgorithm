@@ -51,7 +51,7 @@ public class _1670DesignFrontMiddleBackQueue {
                 head = newNode;
             }
             length++;
-            mid =
+            mid = head;
         }
 
         public void pushMiddle(int val) {
