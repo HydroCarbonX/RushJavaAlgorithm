@@ -64,6 +64,12 @@
                 <artifactId>rush-java-algorithm-leetcode</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
+                <artifactId>leetcode-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

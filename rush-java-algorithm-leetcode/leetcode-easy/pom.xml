@@ -13,4 +13,10 @@
     <artifactId>leetcode-easy</artifactId>
     <version>${revision}</version>
     <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.hydrocarbonx.rush.javaalgorithm</groupId>
+            <artifactId>leetcode-common</artifactId>
+        </dependency>
+    </dependencies>
 </project>
